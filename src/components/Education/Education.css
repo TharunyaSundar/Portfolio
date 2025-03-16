@@ -1,0 +1,79 @@
+.Education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Education-title {
+    color: white;
+}
+
+.Education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.education-card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    color: white;
+    position: relative;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.edu-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.education-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.education-details h2, .education-details h3, .education-details p {
+    margin: 0;
+}
+
+.education-details h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education-details h3 {
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+.education-details p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #cccccc;
+}
+
+.grade-badge {
+    background-color: #a703ff;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    box-shadow: 0 2px 8px rgba(255, 77, 77, 0.5);
+}
