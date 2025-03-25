@@ -3,9 +3,20 @@ import weatherappimg from '../../assets/WeatherApp WebApp.png';
 import faceappimg from '../../assets/FacemaskDetect.png';
 import tdspimg from '../../assets/tdsp.png';
 import pingtoolimg from '../../assets/pingtool.png'
+import guessgame from '../../assets/guessgame.png'
+import productapp from '../../assets/productapp.png'
 import './projects.css'
 
 const projectsData = [
+  {
+    title: "Product App",
+    description:
+      "Admin dashboard Website that enables administrators to efficiently manage product inventory by adding, updating, and deleting products. Provides a seamless and intuitive interface for product management",
+    technologies: ["React", "Javascript", "Express.js", "Render", "MongoDB", "chakra-UI"],
+    image: productapp,
+    link: "https://product-app-13vt.onrender.com/",
+    video: "#",
+  },
     {
       title: "Weather Check WebApp",
       description:
@@ -25,6 +36,15 @@ const projectsData = [
       video: "#",
     },
     {
+      title: "Guess the Number",
+      description:
+        "Guessing a randomly generated number. The game provides feedback on each guess, indicating whether the guessed number is too high, too low, or correct. This simple yet engaging project demonstrates core web development concepts like event handling, DOM manipulation, and dynamic updates.",
+      technologies: ["Javascript", "HTML", "CSS"],
+      image: guessgame,
+      link: "https://guessgame-gamma.vercel.app/",
+      video: "#",
+    },
+    {
       title: "NYC Crash Data Science Project",
       description:
         "Analyzed NYC crash data (2013–2024) using geospatial & time-series analysis, identified high-risk intersections, peak crash times, and seasonal trends, and proposed data-driven safety measures using Python, Pandas, Matplotlib and Geopandas.",
@@ -36,8 +56,8 @@ const projectsData = [
     {
         title: "Ping Tool",
         description:
-          "Analyzed NYC crash data (2013–2024) using geospatial & time-series analysis, identified high-risk intersections, peak crash times, and seasonal trends, and proposed data-driven safety measures using Python, Pandas, Matplotlib and Geopandas.",
-        technologies: ["Python", "EDA", "Pandas", "Numpy", "GeoSpatial Analysis", "Data Visualization"],
+          "Android app that allows users to enter a domain name and test network connectivity by sending ICMP echo requests, measuring response times, and displaying real-time results.",
+        technologies: ["Kotlin","XML","Android SDK", "Gradles"],
         image: pingtoolimg,
         link: "",
         video: "https://drive.google.com/file/d/1uNUe3RPkLw8cmX1YBKGP3fhtiXeLtMhz/view?usp=sharing",
