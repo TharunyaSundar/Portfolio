@@ -3,11 +3,11 @@ import { SiTensorflow } from "react-icons/si";
 
 const Skills = () => {
   const skills = [
-    { name: "HTML, CSS & Tailwind CSS", icon: <FaHtml5 size={24} />, level: "w-[90%]" },
+    { name: "HTML, CSS & Tailwind CSS", icon: <FaHtml5 size={24} />, level: "w-[80%]" },
     { name: "JavaScript & TypeScript", icon: <FaJs size={24} />, level: "w-[75%]" },
-    { name: "React & NodeJS", icon: <FaReact size={24} />, level: "w-[80%]" },
-    { name: "MongoDB & Firebase", icon: <FaDatabase size={24} />, level: "w-[65%]" },
-    { name: "OpenCV, Keras & TensorFlow", icon: <SiTensorflow size={24} />, level: "w-[85%]" },
+    { name: "React & NodeJS", icon: <FaReact size={24} />, level: "w-[75%]" },
+    { name: "MongoDB, Next.js & Express.js", icon: <FaDatabase size={24} />, level: "w-[70%]" },
+    { name: "OpenCV, Keras & TensorFlow", icon: <SiTensorflow size={24} />, level: "w-[75%]" },
   ];
 
   return (
