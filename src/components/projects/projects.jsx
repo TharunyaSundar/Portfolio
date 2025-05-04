@@ -7,9 +7,19 @@ import guessgame from '../../assets/guessgame.png'
 import productapp from '../../assets/productapp.png'
 import healthcare from '../../assets/healthcare.png'
 import chatapp from '../../assets/chatapp.png'
+import daylight from '../../assets/daylight.png'
 import './projects.css'
 
 const projectsData = [
+  {
+    title: "Patient CRM Dashboard",
+    description:
+      "Built a web dashboard that helps front-desk staff easily upload, review, and edit patient data from CSV files. It includes real-time validation, a smooth editing experience, and a secure CRM integration flow—deployed seamlessly on Cloudflare Workers",
+    technologies: ["React", "Javascript", "CloudFlare Workers", "Material UI", "Next.js", "REST API"],
+    image: daylight,
+    link: "https://daylight-health.tsundar.workers.dev/",
+    video: "#",
+  },
   {
     title: "Chat App",
     description:
