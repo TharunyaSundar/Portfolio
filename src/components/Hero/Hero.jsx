@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import profile_img from '../../assets/profile4.jpeg';
-import resume from '../../assets/ResumeSundarTharunya.pdf';
+import resume from '../../assets/resume.pdf';
 const Hero=()=>{
     const [showResume, setShowResume] = useState(false);
 
