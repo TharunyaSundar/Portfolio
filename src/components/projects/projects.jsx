@@ -8,6 +8,9 @@ import productapp from '../../assets/productapp.png'
 import healthcare from '../../assets/healthcare.png'
 import chatapp from '../../assets/chatapp.png'
 import daylight from '../../assets/daylight.png'
+import estbookimg from "../../assets/estbookimg.png";
+
+
 import './projects.css'
 
 const projectsData = [
@@ -19,6 +22,15 @@ const projectsData = [
     image: daylight,
     link: "https://daylight-health.tsundar.workers.dev/",
     video: "#",
+  },
+  {
+    title: "ESTBOOK – NeurIPS 2025 Publication",
+    description:
+      "Contributed to the GMAT subset of ESTBOOK, a multimodal benchmark evaluating LLM reasoning on English standardized tests. Developed a JSON dataset of 1,856 GMAT questions and designed Tree-of-Thought prompting pipelines, leading to 33% accuracy gains. Published in NeurIPS 2025.",
+    technologies: ["LLM", "Tree-of-Thought", "Benchmarking", "JSON", "Prompt Engineering", "Python"],
+    image: estbookimg,
+    link: "https://openreview.net/forum?id=y82R93iRR9",
+    video: "#"
   },
   {
     title: "Chat App",

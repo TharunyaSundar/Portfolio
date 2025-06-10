@@ -17,37 +17,6 @@ const About=()=>{
                     <p className="font-inter mt-6">🤝 Let’s connect, innovate, and build something amazing together! </p>
                 </div>
             </div>
-            {/* <div className="flex justify-center w-full font-inter font-bold">
-                <div className="skills-section mt-8 w-[80%] px-8">
-                    {[
-                        { skill: "HTML, CSS & Tailwind CSS", percentage: "100%" },
-                        { skill: "JavaScript & TypeScript", percentage: "80%" },
-                        { skill: "React & NodeJS", percentage: "70%" },
-                        { skill: "MongoDB & FireBase", percentage: "60%" },
-                        { skill: "OpenCV, Keras & TensorFlow", percentage: "90%" },
-                    ].map((item, index) => (
-                        <div key={index} className="about-skill mb-6">
-                            {/* Skill and Bar Wrapper *//*}
-                            <div className="relative flex items-center">
-                                {/* Skill Name *//*}
-                                <p className="text-white font-medium w-48">{item.skill}</p>
-
-                                {/* Skill Level Bar *//*}
-                                <div className="flex-grow ml-4"> 
-                                    <hr
-                                        className="h-2 rounded-full "
-                                        style={{
-                                            width: item.percentage,
-                                            height: "8px",
-                                            background: "linear-gradient(to right, #dc2626, #9f7aea)"
-                                        }}
-                                    />
-                                    </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div> */}
         </div>
     )
 }
