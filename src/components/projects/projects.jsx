@@ -9,11 +9,30 @@ import healthcare from '../../assets/healthcare.png'
 import chatapp from '../../assets/chatapp.png'
 import daylight from '../../assets/daylight.png'
 import estbookimg from "../../assets/estbookimg.png";
+import havenAIimg from "../../assets/havenAIlogo.png";
 
 
 import './projects.css'
 
 const projectsData = [
+  {
+    title: "HavenAI – Wellness App",
+    description:
+      "HavenAI is a React Native mobile application that leverages GPT-4 for real-time AI conversations, supporting users in their journey to quit vaping. It includes craving and trigger logging, motivational journaling, guided breathing techniques, and a gamified progress system. The app also integrates Firebase Auth and health analytics to track milestones and personalize the recovery experience.",
+    technologies: [
+      "React Native",
+      "Firebase Auth",
+      "FastAPI",
+      "MongoDB",
+      "GPT-4",
+      "Expo",
+      "JWT",
+      "APScheduler"
+    ],
+    image: havenAIimg,
+    link: "https://expo.dev/accounts/tharunya/projects/havenAI/builds/df43914a-cf42-44de-869e-2339229c1101",
+    video: "https://drive.google.com/file/d/14j5STjg4JUiAjo1XIlm8sXO1JRS3IDg9/view?usp=sharing"
+  },  
   {
     title: "Patient CRM Dashboard",
     description:
